@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Kupuku</title>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+
 <style type="text/css">
 body,ul,li{
 	margin: 0;
@@ -10,6 +13,10 @@ body,ul,li{
 
 body{
 	background: #F1EED9;
+}
+
+body,h1,h2,h3,p{
+	text-shadow: 4px 4px 2px #382313;
 }
 
 #kotakgede{
@@ -21,7 +28,7 @@ body{
 #sidebar{
 	width: 300px;
 	background: #58351A;
-	height: 1000px;
+	height: 100%;
 	text-align: center;
 	padding-top: 20px;
 	color: #F1EED9;
@@ -41,12 +48,41 @@ body{
 	height: 300px;
 }
 
+#barpp{
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.subjudul{
+	font-family: 'Coming Soon', cursive;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.subjudul:before{
+	content: '"';
+	font-size: 40px;
+	padding-right: 5px;
+}
+
+.subjudul:after{
+	content: '"';
+	font-size: 40px;
+	padding-left: 5px;
+}
 </style>
 </head>
 <body>
 <div id="kotakgede">
 	<div id="sidebar">
 		<div id="profpic"><img class="pp" src="pp.jpg"></div>
+		<div id="barpp"><h1>Nama Saya Siapa</h1>
+		<h2 class='subjudul'>Welcome to my site, have a look and enjoy...</h2>
+		</div>
 	</div>
 	<div id="konten">
 
