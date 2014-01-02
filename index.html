@@ -74,14 +74,49 @@ h1{
 	font-size: 40px;
 	padding-left: 5px;
 }
+
+a{
+	text-decoration: none;
+	color: #F1EED9;
+}
+
+nav ul{
+	list-style: none;
+	text-align: left;
+	font-size: 18px;
+}
+
+nav li{
+	padding: 10px;
+}
+
+hr{
+	border: 1px solid #382313;
+	margin: 20px 0px;
+}
+
+nav ul .aktif,nav li:hover{
+	background: #382313;
+}
 </style>
 </head>
 <body>
 <div id="kotakgede">
 	<div id="sidebar">
 		<div id="profpic"><img class="pp" src="pp.jpg"></div>
-		<div id="barpp"><h1>Nama Saya Siapa</h1>
-		<h2 class='subjudul'>Welcome to my site, have a look and enjoy...</h2>
+		<div id="barpp">
+			<h1>Nama Saya Siapa</h1>
+			<h2 class='subjudul'>Welcome to my site, have a look and enjoy...</h2>
+			<hr>
+		<nav>
+			<ul>
+			<li class='aktif'><a href="">Beranda</a></li>
+			<li><a href="">Tentang Saya</a></li>
+			<li><a href="">Hubungi Saya</a></li>
+			<li><a href="">CV</a></li>
+			</ul>
+		</nav>
+
 		</div>
 	</div>
 	<div id="konten">
