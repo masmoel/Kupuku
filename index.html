@@ -22,7 +22,6 @@ body,h1,h2,h3,p{
 #kotakgede{
 	background: #F7EDBF;
 	width: 960px;
-	height: 1000px;
 }
 
 #sidebar{
@@ -32,6 +31,7 @@ body,h1,h2,h3,p{
 	text-align: center;
 	padding-top: 20px;
 	color: #F1EED9;
+	position: fixed;
 }
 
 .pp,#profpic{
@@ -88,6 +88,7 @@ nav ul{
 
 nav li{
 	padding: 10px;
+	transition: 0.5s;
 }
 
 hr{
@@ -95,8 +96,21 @@ hr{
 	margin: 20px 0px;
 }
 
-nav ul .aktif,nav li:hover{
+nav ul .aktif{
 	background: #382313;
+}
+
+nav li:hover{
+	background: #382313;
+	padding-left: 20px;
+}
+
+#konten{
+	position: absolute;
+	left: 300px;
+	background: #F7EDBF;
+	width: 660px;
+	height: 100%;
 }
 </style>
 </head>
@@ -108,19 +122,20 @@ nav ul .aktif,nav li:hover{
 			<h1>Nama Saya Siapa</h1>
 			<h2 class='subjudul'>Welcome to my site, have a look and enjoy...</h2>
 			<hr>
-		<nav>
-			<ul>
-			<li class='aktif'><a href="">Beranda</a></li>
-			<li><a href="">Tentang Saya</a></li>
-			<li><a href="">Hubungi Saya</a></li>
-			<li><a href="">CV</a></li>
-			</ul>
-		</nav>
+
+			<nav>
+				<ul>
+				<li class='aktif'><a href="">Beranda</a></li>
+				<li><a href="">Tentang Saya</a></li>
+				<li><a href="">Hubungi Saya</a></li>
+				<li><a href="">CV</a></li>
+				</ul>
+			</nav>
 
 		</div>
 	</div>
 	<div id="konten">
-
+aaa
 	</div>
 </div>
 </body>
